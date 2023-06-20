@@ -41,10 +41,12 @@ export default function Sidebar() {
             Perfil
           </li>
           </Link>
+          <Link to="/login">
           <li className="px-4 py-2 hover:bg-gray-700 hover:text-white cursor-pointer">
             <LogoutIcon/>
             Sair
           </li>
+          </Link>
         </ul>
       </div>
     </div>
