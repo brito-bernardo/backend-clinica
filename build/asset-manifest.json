@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/atualizacoes-front-clinica/static/css/main.c1ab32bd.css",
+    "main.js": "/atualizacoes-front-clinica/static/js/main.c09a2435.js",
+    "static/js/787.5f2664e0.chunk.js": "/atualizacoes-front-clinica/static/js/787.5f2664e0.chunk.js",
+    "static/media/BernardoIcon.jpg": "/atualizacoes-front-clinica/static/media/BernardoIcon.72d55c734a5393de2327.jpg",
+    "static/media/Logo.png": "/atualizacoes-front-clinica/static/media/Logo.4c5c90232beb2fd5cbef.png",
+    "index.html": "/atualizacoes-front-clinica/index.html",
+    "main.c1ab32bd.css.map": "/atualizacoes-front-clinica/static/css/main.c1ab32bd.css.map",
+    "main.c09a2435.js.map": "/atualizacoes-front-clinica/static/js/main.c09a2435.js.map",
+    "787.5f2664e0.chunk.js.map": "/atualizacoes-front-clinica/static/js/787.5f2664e0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c1ab32bd.css",
+    "static/js/main.c09a2435.js"
+  ]
+}
