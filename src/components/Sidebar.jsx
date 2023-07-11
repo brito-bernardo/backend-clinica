@@ -5,6 +5,7 @@ import AssignmentTurnedInIcon from '@mui/icons-material/AssignmentTurnedIn';
 import FolderIcon from '@mui/icons-material/Folder';
 import LogoutIcon from '@mui/icons-material/Logout';
 import UserIcon from '@mui/icons-material/AccountBox';
+import PersonAddIcon from '@mui/icons-material/PersonAdd';
 
 export default function Sidebar() {
   return (
@@ -19,7 +20,7 @@ export default function Sidebar() {
             
           </li>
           </Link>
-          <Link to='/form'>
+          <Link to='/prontuariolist'>
           <li className="px-4 py-2 hover:bg-gray-700 hover:text-white cursor-pointer">
             <AssignmentTurnedInIcon/>
             
@@ -31,6 +32,12 @@ export default function Sidebar() {
           <li className="px-4 py-2 hover:bg-gray-700 hover:text-white cursor-pointer">
             <FolderIcon/>
             Diagnóstico
+          </li>
+          </Link>
+          <Link to='/cadastrouser'>
+          <li className="px-4 py-2 hover:bg-gray-700 hover:text-white cursor-pointer">
+            <PersonAddIcon/>
+            Cadastro de Usuário
           </li>
           </Link>
         </ul>

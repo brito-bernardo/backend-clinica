@@ -4,6 +4,9 @@ import {
   } from "@material-tailwind/react";
 import BernardoIcon from '../assets/BernardoIcon.jpg'
 
+
+
+
 const profile = [
     {
       nome: 'Bernardo Brito',

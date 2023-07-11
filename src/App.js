@@ -3,9 +3,12 @@ import Login from './pages/Login';
 import ForgotPassword from './pages/Forgotpassword';
 import DefaultPage from './components/DefaultPage';
 import Home from './pages/Home';
-import Form from './pages/Form'
+import Prontuario from './pages/Prontuario'
 import Diagnostico from './pages/Diagnostico';
 import Perfil from './pages/Perfil';
+import CadastroUser from './pages/CadastroUser'
+import TableProntuario from './pages/TableProntuario';
+import TableDiagnostico from './pages/TableDiagnostico';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {
@@ -15,9 +18,12 @@ function App() {
         <Routes>
           <Route path='/' element={<DefaultPage/>}>
             <Route path='/' element={<Home />} />
-            <Route path='/form' element={<Form />} />
+            <Route path='/prontuario' element={<Prontuario />} />
             <Route path='/diagnostico' element={<Diagnostico />} />
             <Route path='/perfil' element={<Perfil />} />
+            <Route path='/prontuariolist' element={<TableProntuario />} />
+            <Route path='/diagnosticolist' element={<TableDiagnostico />} />
+            <Route path='/cadastrouser' element={<CadastroUser />} />
           </Route>
           <Route path='/login' element={<Login />} />
           <Route path='/forgotpassword' element={<ForgotPassword />} />
